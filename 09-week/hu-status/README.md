@@ -17,7 +17,7 @@
 | Documentation | Update second-cut requirements and user stories | done | [PR #38](https://github.com/code-corhuila/bysellens-docs/pull/38) - [Merge commit `aee5fc5`](https://github.com/code-corhuila/bysellens-docs/commit/aee5fc5d61fc150f585fba4ca642a92a5fd36128) |
 | Documentation | Update second-cut microservices documentation | done | [PR #37](https://github.com/code-corhuila/bysellens-docs/pull/37) - [Merge commit `ac84524`](https://github.com/code-corhuila/bysellens-docs/commit/ac8452426cc327d68f53184243e3615293ecb552) |
 | Documentation | Add query products sequence diagram | done | [PR #43](https://github.com/code-corhuila/bysellens-docs/pull/43) - [Merge commit `5ea7deb`](https://github.com/code-corhuila/bysellens-docs/commit/5ea7debe8f25b8fd4930e8b16575c4de4e826b06) |
-| Documentation | Align stock concurrency and product contracts | done | [PR #47](https://github.com/code-corhuila/bysellens-docs/pull/47) - [Commit `716a58e`](https://github.com/code-corhuila/bysellens-docs/commit/716a58efa5c7fb9694a56d54c75614144a1c9258) |
+| Documentation | Align stock concurrency and product contracts | done | [PR #47](https://github.com/code-corhuila/bysellens-docs/pull/47) - [Commit `716a58e`](https://github.com/code-corhuila/bysellens-docs/commit/716a58efa5c7fb9694a56d54c75614144a1c9258) - [Merge `12d8ce5`](https://github.com/code-corhuila/bysellens-docs/commit/12d8ce5bc23c2aef431ec346a2e1fa66cd3769aa) |
 
 ## 2. My individual contribution
 - Updated the second-cut requirements and user stories.
@@ -69,7 +69,9 @@
 ### PR #47 — Stock concurrency and product contracts
 
 - PR: https://github.com/code-corhuila/bysellens-docs/pull/47
-- Commit: https://github.com/code-corhuila/bysellens-docs/commit/716a58efa5c7fb9694a56d54c75614144a1c9258
-- Commit SHA: `716a58efa5c7fb9694a56d54c75614144a1c9258`
+- Content commit: https://github.com/code-corhuila/bysellens-docs/commit/716a58efa5c7fb9694a56d54c75614144a1c9258
+- Content commit SHA: `716a58efa5c7fb9694a56d54c75614144a1c9258`
+- Merge commit: https://github.com/code-corhuila/bysellens-docs/commit/12d8ce5bc23c2aef431ec346a2e1fa66cd3769aa
+- Merge commit SHA: `12d8ce5bc23c2aef431ec346a2e1fa66cd3769aa`
 - Status: Merged
 - Branch: `docs/09-microservices` → `main`
