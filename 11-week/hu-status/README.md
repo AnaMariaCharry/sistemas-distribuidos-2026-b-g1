@@ -25,6 +25,7 @@
 | CP7 | Add burn-rate alerting rules | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/b00c5f12d03dd05b130413b32931e69c7d712fc2 |
 | CP8 | Write runbook for fast-burn alert | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/449545019ec55760384b13d74758e060c54bfd17 |
 | CP9 | Run incident drill and postmortem | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/ef5ef9196fc81ff67fc94d284f8a32649d5f58e9 |
+| CP10 | Update Week 11 HU status for Delivery 2 | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/69ab07fa103b7a7e793ca66bf5f2dd060943e08d |
 
 ## 2. My individual contribution
 - Documented the customer registration and list refresh journey using ClienteForm, Clientes, clienteService, and mockClientes.
@@ -87,6 +88,9 @@
 
 - CP9 - Incident drill and blameless postmortem:
   https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/ef5ef9196fc81ff67fc94d284f8a32649d5f58e9
+
+- CP10 - Update Week 11 HU status for Delivery 2:
+  https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/69ab07fa103b7a7e793ca66bf5f2dd060943e08d
 
 - Individual GitHub repository:
   https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1
