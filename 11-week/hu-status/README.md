@@ -20,6 +20,7 @@
 |  CP3-A | Implement Customer trace context and JSON logging | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/2f67db39d0860a7a8c033a0a5bdf11a9c83cc4f6 |
 |  CP3-B | Add Customer context propagation, metrics, and tests | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/292631e219483638f517b9b645a3d14f1bfcf3ec |
 |  CP4 | Define Customer golden signals and metrics catalog | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/93955d05069b3928ae75266e96f4a2dc52198147 |
+| CP5 | Complete Week 11 weekly status report | done | https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/7b2381119b1811896da72c7af10167039c9625bd |
 
 ## 2. My individual contribution
 - Documented the customer registration and list refresh journey using ClienteForm, Clientes, clienteService, and mockClientes.
@@ -67,6 +68,9 @@
 
 - CP4 - Four golden signals and metrics catalog:
   https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/93955d05069b3928ae75266e96f4a2dc52198147
+
+  - CP5 - Week 11 weekly status report:
+  https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/commit/7b2381119b1811896da72c7af10167039c9625bd
 
 - Individual GitHub repository:
   https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1
