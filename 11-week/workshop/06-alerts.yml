@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "bysellens_customer_availability",
+      "interval": "30s",
+      "rules": [
+        {
+          "alert": "CustomerAvailabilityFastBurn",
+          "expr": "((sum(rate(customer_operations_total{outcome=\"failure\"}[1h])) / sum(rate(customer_operations_total[1h]))) / 0.01 > 14.4) and ((sum(rate(customer_operations_total{outcome=\"failure\"}[5m])) / sum(rate(customer_operations_total[5m]))) / 0.01 > 14.4)",
+          "for": "0m",
+          "labels": {
+            "severity": "critical",
+            "team": "By_Sellens"
+          },
+          "annotations": {
+            "summary": "Customer adapter availability budget is burning above 14.4x",
+            "description": "Proposed rule: failure ratios exceed 14.4% over both 1h and 5m for create and refresh operations.",
+            "runbook_url": "https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/blob/main/11-week/workshop/07-runbook.md"
+          }
+        },
+        {
+          "alert": "CustomerAvailabilitySlowBurn",
+          "expr": "((sum(rate(customer_operations_total{outcome=\"failure\"}[6h])) / sum(rate(customer_operations_total[6h]))) / 0.01 > 6) and ((sum(rate(customer_operations_total{outcome=\"failure\"}[30m])) / sum(rate(customer_operations_total[30m]))) / 0.01 > 6)",
+          "for": "0m",
+          "labels": {
+            "severity": "warning",
+            "team": "By_Sellens"
+          },
+          "annotations": {
+            "summary": "Customer adapter availability budget is burning above 6x",
+            "description": "Proposed rule: failure ratios exceed 6% over both 6h and 30m for create and refresh operations.",
+            "runbook_url": "https://github.com/AnaMariaCharry/sistemas-distribuidos-2026-b-g1/blob/main/11-week/workshop/07-runbook.md"
+          }
+        }
+      ]
+    }
+  ]
+}
