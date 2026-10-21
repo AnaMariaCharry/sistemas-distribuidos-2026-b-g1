@@ -28,3 +28,28 @@ Verified on this Windows machine: Node.js `v20.20.2`, TypeScript `5.8.3`. The in
 # skipped 0
 # todo 0
 ```
+
+## CP3-B: simulated HTTP propagation and metrics
+
+After `npm test`, run `node build/http-demo.js`. No dependencies were added. `customerHttp` builds a real Fetch `Request` for the existing `/api/clientes` client path with POST/create or GET/refresh and injects the new CLIENT span's `traceparent`. An injected asynchronous transport returns a synthetic `Response` or rejects; it never calls `fetch` or contacts a server. The reserved `customer.invalid` host is a fixture, not a deployed API. Requests intentionally have no customer body; this tests instrumentation, not backend registration validation or actual customer persistence.
+
+The simulated flow retains CP1 parentage R -> G -> C -> CLIENT for creation and R -> L -> CLIENT for refresh. The demo's successful save response and subsequent failed refresh are synthetic transport outcomes. CP2 logs remain MOCK/test records; no localStorage write or REAL backend integration is claimed. Errors are replaced with a fixed message without retaining raw exception data.
+
+`CustomerMetrics.prometheus()` is the metrics exposure equivalent: it returns Prometheus text, printed by the demo, without introducing a server or `/metrics` endpoint. The counter labels are bounded operation/create-or-refresh and outcome/success-or-failure. The seconds-based cumulative histogram has 0.005, 0.05, 0.5, 5 and +Inf buckets, sum and count; each attempted transport records one observation, including failures. It measures adapter duration, not full browser rendering latency. Separate instances isolate test runs; no trace IDs or customer fields become labels.
+
+Actual CP3-B console excerpts from `npm test` and `node build/http-demo.js` (variable timings and trace IDs omitted):
+
+```text
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+customer_operations_total{operation="create",outcome="success"} 1
+customer_operations_total{operation="refresh",outcome="failure"} 1
+customer_operation_duration_seconds_bucket{le="+Inf"} 2
+customer_operation_duration_seconds_count 2
+```
