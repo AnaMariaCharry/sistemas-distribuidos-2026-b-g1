@@ -1,4 +1,4 @@
-# Certification C3 — <Full name>
+# Certification C3 — Ana Maria Charry Forero
 
 > Template of the corte 3 certification. Replace every `<...>` with your data and delete this note. The rules are in the guide attached to the c3-certification activity in Moodle. Text left as `<...>` counts as missing.
 
@@ -6,14 +6,14 @@
 
 | Field | Value |
 |---|---|
-| Full name | <Full name exactly as in Moodle> |
-| GitHub user | <github-user> |
-| Group | <G1 or G2> |
-| Team | <Team name> |
-| Team -docs repository | <https://github.com/code-corhuila/...-docs> |
-| Course | <Exact course name> |
-| Course link | <Course URL> |
-| Start date | <YYYY-MM-DD> |
+| Full name | Ana Maria Charry Forero |
+| GitHub user | AnaMariaCharry |
+| Group | G1 |
+| Team | by_sellens |
+| Team -docs repository | https://github.com/code-corhuila/bysellens-docs |
+| Course | HCCDP-Solution Architectures Course |
+| Course link | https://e.huawei.com/en/talent/ict-academy/#/ict-courses-detail?courseId=6WtKiPd1S1YelBB0AUbE1vXlPgk |
+| Start date | 07-11-2026 |
 | Completion date | <YYYY-MM-DD> |
 
 ## Study log
@@ -40,4 +40,9 @@
 
 ## Skills summary
 
-<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
+I learned how to design cloud architectures using Huawei Cloud services.
+I learned how to improve system reliability using multiple availability zones.
+I learned how to design scalable systems using load balancing and auto scaling.
+I learned how to protect cloud applications using security groups and access control.
+I learned how to plan disaster recovery using backup strategies and RTO and RPO objectives.
+I learned how to design automated deployment processes for cloud applications.
