@@ -32,7 +32,7 @@
 
 | Evidence file | Lab name | What I built | What failed first and how I fixed it |
 |---|---|---|---|
-| evidence/15-lab-1.png | Design Cases and Practices of an O&M Solution | <One sentence> | <One sentence> |
+| evidence/15-lab-1.png | Design Cases and Practices of an O&M Solution |  I configured a database subnet, a MySQL security group, and an RDS instance named rds-web in Huawei Cloud. | The RDS instance was not initially created, but I resolved this by submitting the request. I then obtained the database IP address and identified database table and access permission issues. |
 | evidence/16-lab-2.png | High-Performance Network Solution | <One sentence> | <One sentence> |
 | evidence/17-lab-3.png | Highly Elastic Service System | <One sentence> | <One sentence> |
 | evidence/18-lab-4.png | Highly Reliable Database Solution | <One sentence> | <One sentence> |
@@ -45,9 +45,9 @@
 
 ## Skills summary
 
-I learned how to design cloud architectures using Huawei Cloud services.
-I learned how to improve system reliability using multiple availability zones.
-I learned how to design scalable systems using load balancing and auto scaling.
-I learned how to protect cloud applications using security groups and access control.
-I learned how to plan disaster recovery using backup strategies and RTO and RPO objectives.
-I learned how to design automated deployment processes for cloud applications.
+- I learned how to design cloud architectures using Huawei Cloud services
+- I learned how to improve system reliability using multiple availability zones.
+- I learned how to design scalable systems using load balancing and auto scaling.
+- I learned how to protect cloud applications using security groups and access control.
+- I learned how to plan disaster recovery using backup strategies and RTO and RPO objectives.
+- I learned how to design automated deployment processes for cloud applications.
