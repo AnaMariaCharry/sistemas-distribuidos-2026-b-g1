@@ -64,14 +64,14 @@ Scaling application containers does not automatically solve database problems. T
 - Critical data store: PostgreSQL database `customer_db`.
 - RTO: 60 minutes
 - RPO: 15 minutes
-- DR pattern (chapter 11): <...>
-- Why the pattern meets those numbers:  Multi-availability-zone high availability with automated backups and point-in-time recovery.
+- DR pattern (chapter 11): Multi-availability-zone high availability with automated backups and point-in-time recovery.
 - Why the pattern meets those numbers: A multi-zone database configuration would help reduce downtime caused by infrastructure failures, while automated backups and recovery logs would support data restoration. The proposed RTO and RPO must be validated through recovery tests before they can be considered guaranteed.
 
 Disaster recovery is necessary because customer-service manages information required for customer operations and sales validation. A database failure could prevent the system from accessing customer records and affect the registration of sales.
 I propose using Huawei Cloud RDS for PostgreSQL with automatic backups and a high-availability configuration across availability zones. This would reduce the operational work required to manage database availability and recovery.
 The Recovery Time Objective (RTO) represents the maximum target time for restoring the service after an interruption. In this proposal, the objective is 60 minutes.
 The Recovery Point Objective (RPO) represents the maximum acceptable amount of recent data that could be lost during a failure. I propose an RPO of 15 minutes.
+
 To evaluate these objectives, the team would need to perform restoration exercises and measure the actual recovery time and recovered data. Backup retention, database configuration, and regional service availability would also need verification.
 This strategy is related to ADR-C3-02, which proposes database protection and recovery for Customer. It is not an implemented or tested disaster recovery solution.
 
