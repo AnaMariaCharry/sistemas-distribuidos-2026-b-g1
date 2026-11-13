@@ -33,9 +33,9 @@
 | Evidence file | Lab name | What I built | What failed first and how I fixed it |
 |---|---|---|---|
 | evidence/15-lab-1.png | Design Cases and Practices of an O&M Solution |  I configured a database subnet, a MySQL security group, and an RDS instance named rds-web in Huawei Cloud. | The RDS instance was not initially created, but I resolved this by submitting the request. I then obtained the database IP address and identified database table and access permission issues. |
-| evidence/16-lab-2.png | High-Performance Network Solution | <One sentence> | <One sentence> |
-| evidence/17-lab-3.png | Highly Elastic Service System | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | Highly Reliable Database Solution | <One sentence> | <One sentence> |
+| evidence/16-lab-2.png | High-Performance Network Solution | I configured a virtual network, subnets, and routing rules to improve communication between cloud resources. | I initially had a network connectivity issue, which I resolved by reviewing the routing and security group settings. |
+| evidence/17-lab-3.png | Highly Elastic Service System |  I configured an elastic cloud environment with load balancing and automatic scaling to manage changes in application traffic.| The scaling configuration did not initially work as expected, so I reviewed the scaling policy and instance settings. |
+| evidence/18-lab-4.png | Highly Reliable Database Solution | I configured a database solution with high availability and backup settings to improve data reliability. |  I initially encountered a database configuration issue, which I resolved by checking the instance settings and network permissions. |
 
 ## Final exam
 
