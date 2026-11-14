@@ -16,10 +16,10 @@
 |---|---|---|---|
 | HU-CUSTOMER-001 | Implement standalone Customer API | done | https://github.com/code-corhuila/bysellens-customer-api/pull/1 |
 | HU-CUSTOMER-002 | Migrate Customer persistence to MongoDB | done | https://github.com/code-corhuila/bysellens-customer-api/pull/4 |
-| HU-CUSTOMER-003 | Update Customer API dependency configuration | doing | https://github.com/code-corhuila/bysellens-customer-api/pull/9 |
+| HU-CUSTOMER-003 | Update Customer API dependency configuration | done | https://github.com/code-corhuila/bysellens-customer-api/pull/9 |
 | HU-CUSTOMER-004 | Implement standalone Customer MongoDB configuration | done | https://github.com/code-corhuila/bysellens-customer-db/pull/1 |
 | HU-CUSTOMER-005 | Translate Customer DB documentation into English | done | https://github.com/code-corhuila/bysellens-customer-db/pull/2 |
-| HU-CUSTOMER-006 | Promote Customer DB configuration to main | doing | https://github.com/code-corhuila/bysellens-customer-db/pull/4 |
+| HU-CUSTOMER-006 | Promote Customer DB configuration to main | done | https://github.com/code-corhuila/bysellens-customer-db/pull/4 |
 
 ## 2. My individual contribution
 
@@ -61,6 +61,7 @@
 - [x] No secrets; config via environment variables
 
 ## 6. Evidence links
+
 ### Customer API Repository
 
 https://github.com/code-corhuila/bysellens-customer-api
@@ -119,15 +120,23 @@ https://github.com/code-corhuila/bysellens-customer-api
 - MongoDB release merge:
   https://github.com/code-corhuila/bysellens-customer-api/commit/c2d7cfd84506af86971e8d50b29965aef37b8731
 
-#### Pending Customer API Pull Request
+- Customer dependency scope update:
+  https://github.com/code-corhuila/bysellens-customer-api/commit/ff7201c11e82aba3c765f6ccdc414b01d8d18d21
 
-- PR #9 - Release dependency scope updates:
+- Customer dependency release merge:
+  https://github.com/code-corhuila/bysellens-customer-api/commit/bbdfe16e4f80ec128d8fc5d4eac6bc6c3ab8d52c
+
+#### Customer API Release Pull Requests
+
+- PR #6 - MongoDB release to main:
+  https://github.com/code-corhuila/bysellens-customer-api/pull/6
+
+- PR #9 - Dependency scope updates to main:
   https://github.com/code-corhuila/bysellens-customer-api/pull/9
 
-- Source branch: release/customer-dependencies
+- Status: MERGED
 - Target branch: main
-- Status: OPEN
-- Pending: Professor approval
+- Release completed: November 14, 2026
 
 ---
 
@@ -160,13 +169,24 @@ https://github.com/code-corhuila/bysellens-customer-db
 - QA promotion merge:
   https://github.com/code-corhuila/bysellens-customer-db/commit/6333ef9bac64b70fa70b9fed091ecd9459234612
 
-#### Pending Customer DB Pull Request
+#### Main - Released MongoDB configuration
+
+- Standalone MongoDB configuration:
+  https://github.com/code-corhuila/bysellens-customer-db/commit/e680336a22e450ca9203fd62c072fbf36ac95a7e
+
+- English MongoDB documentation:
+  https://github.com/code-corhuila/bysellens-customer-db/commit/73f20c42ff0fe85fd948d1b838a3f87ec3c0a229
+
+- Customer DB release merge:
+  https://github.com/code-corhuila/bysellens-customer-db/commit/d22a2c53f03f1a6fa6d97da238b526e30d898e12
+
+#### Customer DB Release Pull Request
 
 - PR #4 - Release MongoDB configuration to main:
   https://github.com/code-corhuila/bysellens-customer-db/pull/4
 
+- Status: MERGED
 - Target branch: main
-- Status: OPEN (reported)
-- Pending: Approval and merge
+- Release completed: November 14, 2026
 
 ---
